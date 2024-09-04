@@ -11,4 +11,9 @@ class Game extends Product
         $this->gameType = $gameType;
         $this->material = $material;
     }
+
+    public function getGameInfo()
+    {
+        return $this->gameType . ' ' . $this->material;
+    }
 }
