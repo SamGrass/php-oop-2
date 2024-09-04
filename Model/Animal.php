@@ -7,7 +7,7 @@ class Animal
     public $age;
     public $size;
 
-    public function __construct($_species, $_breed, $_age, $_size)
+    public function __construct(String $_species, String $_breed, Int $_age, String $_size)
     {
         $this->species = $_species;
         $this->breed = $_breed;
