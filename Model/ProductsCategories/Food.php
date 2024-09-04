@@ -11,4 +11,12 @@ class Food extends Product
         $this->expiryDate = $expiryDate;
         $this->ingredients = $ingredients;
     }
+
+    public function printFoodList()
+    {
+
+        foreach ($this->ingredients as $ingredient) {
+            echo "<li>" . $ingredient . "</li>";
+        }
+    }
 }
