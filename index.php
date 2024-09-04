@@ -38,7 +38,7 @@ require_once __DIR__ . '/db/products.php';
                             </ul>
                         <?php elseif ($product->category === 'Toys'): ?>
                             <p><?php echo $product->getGameInfo() ?></p>
-                        <?php endif;  ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             <?php endforeach; ?>
