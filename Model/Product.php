@@ -20,4 +20,9 @@ class Product
         $this->brand = $_brand;
         $this->animal = $_animal;
     }
+
+    public function printPrice()
+    {
+        return number_format($this->price, 2, ',', '.');
+    }
 }
